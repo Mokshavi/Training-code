@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name="com.practice.mypackage.Employee" table="emp10000">
+<id name="id">
+<generater class="assigned">
+</generater>
+</id>
+<property name="firstName"></property>
+<property name="lastName"></property>
+</class>
+
+</hibernate-mapping>
